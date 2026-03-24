@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/astrology";
+const API_URL = import.meta.env.VITE_API_URL || "https://future-decider-server-production.up.railway.app/api/astrology";
 
 export const analyzeAstrology = (data, askQuestion = false, language = "english") => {
   const payload = {
