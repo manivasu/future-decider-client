@@ -1,7 +1,7 @@
 // Telugu Translations for FutureDecider
 export const telugu = {
   // Main UI
-  title: "🌟 ఫ్యూచర్‌డిసైడర్",
+  title: "🌟 Mani ఫ్యూచర్‌డిసైడర్",
   subtitle: "రియల్-టైమ్ జ్యోతిష విశ్లేషణ & సమస్య పరిష్కారం",
   
   // Form Labels
