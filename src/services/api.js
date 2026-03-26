@@ -1,13 +1,13 @@
 import axios from "axios";
 
-const API_URL = import.meta.env.VITE_API_URL || "https://future-decider-server-production.up.railway.app/api/astrology";
+const API_URL = import.meta.env.VITE_API_URL || "https://future-decider-server.onrender.com";
 
 export const analyzeAstrology = (data, askQuestion = false, language = "english") => {
   const payload = {
     ...data,
     language: language
   };
-  
+
   if (askQuestion) {
     return axios.post(`${API_URL}/ask`, payload);
   } else {
